@@ -1,0 +1,48 @@
+{
+  "clients": [
+    {
+      "id": "1",
+      "name": "Ksenia",
+      "telegram_id": "588836950",
+      "emails": "ksyashka19@gmail.com",
+      "notification_settings": [
+        {
+          "id": "1",
+          "service": "WEATHER",
+          "ways": [
+            "EMAIL",
+            "SYSTEM",
+            "TELEGRAM"
+          ],
+          "attributes": {
+            "city": "kiev"
+          }
+        },
+        {
+          "id": "2",
+          "service": "WEATHER",
+          "ways": [
+            "EMAIL",
+            "SYSTEM",
+            "TELEGRAM"
+          ],
+          "attributes": {
+            "city": "vilnius"
+          }
+        },
+        {
+          "id": "3",
+          "service": "CURRENCY",
+          "ways": [
+            "EMAIL",
+            "SYSTEM",
+            "TELEGRAM"
+          ],
+          "attributes": {
+            "currency": "EUR,USD"
+          }
+        }
+      ]
+    }
+  ]
+}
